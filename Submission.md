@@ -67,7 +67,7 @@ Your client has asked that you help identify any vulnerabilities with their file
   3. What mitigation strategies can you recommendations for the client to protect their server: 
   - Install the patch that can be found here: http://www.samba.org/samba/security/
   - Upgrade to a newer version of Samba if your system allows it.
-  - There is also a work around provided by Samba.com that would help restrict access via an allow list: 
+  - Implement the Workaround provided by samba.org: 
   Samba contains a "hosts allow" parameter that can be used inside smb.conf to restrict the clients allowed to connect to the server to a trusted list. This can be used to help mitigate the problem caused by this bug but it is by no means a real fix, as client addresses can beeasily faked.
 https://www.samba.org/samba/security/CVE-2012-1182
 
