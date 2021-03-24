@@ -62,7 +62,7 @@ Your client has asked that you help identify any vulnerabilities with their file
   "The RPC code generator in Samba 3.x before 3.4.16, 3.5.x before 3.5.14, and 3.6.x before 3.6.4 does not implement validation of an array length in a manner consistent with validation of array memory allocation. "
   Definition courtesy of National Vuln. DB by NIST: https://nvd.nist.gov/vuln/detail/CVE-2012-1182
 
-  2. Why is it dangerous: Also according to NIST, tt allows remote attackers to execute arbitrary code via a crafted RPC call. 
+  2. Why is it dangerous: Also according to NIST, it allows remote attackers to execute arbitrary code via a crafted RPC call. 
 
   3. What mitigation strategies can you recommendations for the client to protect their server: 
   - Install the patch that can be found here: http://www.samba.org/samba/security/
