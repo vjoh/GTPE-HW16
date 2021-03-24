@@ -30,7 +30,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
 - What open ports and running services did Shodan find: 
 - Ports 80 (HTTP) and 443 (HTTPS)
-
+![](Images/shodan-io.png)
 
 #### Step 4: Recon-ng
 
@@ -39,7 +39,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 - Run the module. 
 
 Is Altoro Mutual vulnerable to XSS: Yes. 
-
+![](Images/recon-ng xssed.png)
 
 
 ### Step 5: Zenmap
